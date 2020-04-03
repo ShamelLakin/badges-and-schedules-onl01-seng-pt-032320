@@ -16,5 +16,5 @@ def assign_rooms(attendees)
 end 
 
 def printer(attendees)
-  puts"Hello, my name is #{attendees}."
+  puts"Hello, my name is #{batch_badge_creator}."
 end 
