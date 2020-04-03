@@ -16,6 +16,5 @@ def assign_rooms(attendees)
 end 
 
 def printer(attendees)
-  attendees.map { |name| 
-  puts "Hello, my name is #{attendees}."}
+  puts "Hello, my name is #{attendees+1}."}
 end 
