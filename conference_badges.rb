@@ -16,5 +16,6 @@ def assign_rooms(attendees)
 end 
 
 def printer(attendees)
-  puts "Hello, my name is #{attendees}."
+  name = attendees.first 
+  puts "Hello, my name is #{name}."
 end 
