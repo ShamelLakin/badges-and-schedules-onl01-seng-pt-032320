@@ -16,6 +16,6 @@ def assign_rooms(attendees)
 end 
 
 def printer(attendees)
-  name = attendees.first 
-  puts "Hello, my name is #{name}."
+  attendees.collect {|att| 
+  puts "Hello, my name is #{att}."}
 end 
